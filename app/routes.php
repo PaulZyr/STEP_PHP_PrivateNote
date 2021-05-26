@@ -14,7 +14,7 @@ switch ($action) {
         break;
     case 'ready':
         require_once CONTROLLERS_DIR.'ReadyMessageController.php';
-        require_once CONTROLLERS_DIR.'MainBottomController.php';
+        //require_once CONTROLLERS_DIR.'MainBottomController.php';
         break;
     case 'show':
         require_once CONTROLLERS_DIR.'ShowMessageController.php';
